@@ -2,48 +2,13 @@
   "students": [
     {
       "id": 1,
-      "name": "Glauco Todesco",
+      "name": "Glauco Todesco Silva",
       "course": "Computação"
     },
     {
       "id": 2,
-      "name": "Maria do Socorro",
-      "course": "Letras"
-    },
-    {
-      "id": 3,
-      "name": "Antero Silva",
-      "course": "Eventos"
-    },
-    {
-      "id": 4,
       "name": "1",
       "course": "1"
-    },
-    {
-      "id": 5,
-      "name": "2",
-      "course": "2"
-    },
-    {
-      "id": "6",
-      "name": "6",
-      "course": "6"
-    },
-    {
-      "id": 7,
-      "name": "7",
-      "course": "7"
-    },
-    {
-      "id": 8,
-      "name": "3",
-      "course": "3"
-    },
-    {
-      "id": 9,
-      "name": "5",
-      "course": "5"
     }
   ]
 }
