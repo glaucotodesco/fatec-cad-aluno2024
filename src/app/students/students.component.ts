@@ -50,6 +50,7 @@ export class StudentsComponent implements OnInit {
             this.loadStudents();
             this.isEditing = false;
             this.submited = false;
+            this.formGroupStudent.reset();
           }
         })
       }
@@ -58,10 +59,11 @@ export class StudentsComponent implements OnInit {
           next: data => {
             this.students.push(data);
             this.submited = false;
+            this.formGroupStudent.reset();
           }
         });
       }
-      this.formGroupStudent.reset();
+
     }
   }
 
@@ -83,6 +85,8 @@ export class StudentsComponent implements OnInit {
   get course(): any {
     return this.formGroupStudent.get("course");
   }
+
+
 
 }
 

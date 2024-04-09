@@ -1,34 +1,3 @@
 {
-  "students": [
-    {
-      "id": 1,
-      "name": "111",
-      "course": "1"
-    },
-    {
-      "id": 2,
-      "name": "111",
-      "course": "2"
-    },
-    {
-      "id": 3,
-      "name": "111",
-      "course": "1"
-    },
-    {
-      "id": 4,
-      "name": "111",
-      "course": "1"
-    },
-    {
-      "id": 5,
-      "name": "44444",
-      "course": "1"
-    },
-    {
-      "id": 6,
-      "name": "rrr",
-      "course": "r"
-    }
-  ]
+  "students": []
 }
