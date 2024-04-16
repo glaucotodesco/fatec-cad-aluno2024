@@ -10,10 +10,10 @@
                  id="name"
                  formControlName="name"
                  />
-          <small *ngIf="isEditing && name.hasError('minlength')" class="text-danger">
+          <small *ngIf="submited && name.hasError('minlength')" class="text-danger">
               * O nome tem que ter no mínimo 3 caracteres!
           </small>
-          <small *ngIf="isEditing && name.hasError('required')" class="text-danger">
+          <small *ngIf="submited && name.hasError('required')" class="text-danger">
             * O nome é requirido!
         </small>
         </div>
@@ -24,7 +24,7 @@
                  id="curso"
                  formControlName="course"
                  />
-          <small  *ngIf="isEditing &&  course.hasError('required')" class="text-danger">
+          <small  *ngIf="submited &&  course.hasError('required')" class="text-danger">
                   * O curso é requirido!
           </small>
         </div>
